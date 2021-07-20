@@ -1,0 +1,145 @@
+<html>
+    <head>
+        <title>Assignment-1</title>
+    </head>
+    <body>
+        <h1>Biodata</h1>
+        <form action="" method="">
+            <fieldset>
+                <legend><b>Personal Information</b></legend>
+                <table>
+                    <tr>
+                        <td><label for="firstName">First Name: </label></td>
+                        <td><input type="text" id="firstName" placeholder="First Name"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="lastName">Last Name:</label> </td>
+                        <td><input type="text" id="lastName" placeholder="Last Name"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" name="gender"> Male</td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" name="gender"> Female</td>
+                    </tr>  
+                    <tr>
+                        <td><input type="radio" name="gender"> Other</td>
+                    </tr> 
+                    <tr>
+                        <td><label for="dob">Date of Birth: </label></td>
+                        <td><input type="date" id="dob"></td>
+                    </tr> 
+                    <tr>
+                        <td><label for="email">E-Mail: </label></td>
+                        <td><input type="email" id="email" placeholder="Enter your email"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="phone">Phone: </label></td>
+                        <td><input type="tel" id="phone" placeholder="+91"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="height">Height: </label></td>
+                        <td><input type="number" id="height" placeholder="Height in Feet"></td>
+                    </tr>
+                </table>
+            </fieldset><br>
+            <fieldset>
+                <legend><b>Education</b></legend>
+                <table>
+                    <tr>
+                        <td><label for="school">School Name: </label></td>
+                        <td><input type="text" id="school" placeholder="School Name"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="class">Class:</label></td>
+                        <td><input type="number" id="class" placeholder="Enter Class"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="stream">Stream:</label> </td>
+                        <td>
+                            <select id="stream" name="Stream">
+                                <option>Medical</option>
+                                <option>Non-medical</option>
+                                <option>Commerce</option>
+                                <option>Arts</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="marksheet">Marksheet: </label></td>
+                        <td><input type="file" id="marksheet"></td>
+                    </tr>
+                </table>
+            </fieldset>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+        <h1>Time Table</h1>
+        <table border="5" cellspacing="7" cellpadding="7">
+            <tr>
+                <th>Days / Periods</th>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th></th>
+                <th>4</th>
+                <th>5</th>
+                <th>6</th>
+            </tr>
+            <tr>
+                <th>Mon</th>
+                <td>Science</td>
+                <td>English</td>
+                <td>Hindi</td>
+                <td rowspan="6"><b>B<br>R<br>E<br>A<br>K</b></td>
+                <td>Maths</td>
+                <td>Games</td>
+                <td>Moral Science</td>
+            </tr>
+            <tr>
+                <th>Tue</th>
+                <td>Science</td>
+                <td>English</td>
+                <td>Hindi</td>
+                <td>Maths</td>
+                <td>Games</td>
+                <td>Moral Science</td>
+            </tr>
+            <tr>
+                <th>Wed</th>
+                <td>Science</td>
+                <td>English</td>
+                <td rowspan="3">Hindi</td>
+                <td>Maths</td>
+                <td>Games</td>
+                <td>Moral Science</td>
+            </tr>
+            <tr>
+                <th>Thu</th>
+                <td>Science</td>
+                <td>English</td>
+                <td>Maths</td>
+                <td>Games</td>
+                <td>Moral Science</td>
+            </tr>
+            <tr>
+                <th>Fri</th>
+                <td>Science</td>
+                <td>English</td>
+                <td>Maths</td>
+                <td>Games</td>
+                <td>Moral Science</td>
+            </tr>
+            <tr>
+                <th>Sat</th>
+                <td>Science</td>
+                <td>English</td>
+                <td>Hindi</td>
+                <td colspan="3">Maths</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;" colspan="8"><b>This is Class VIII</b></td>
+            </tr>
+        </table>
+    </body>
+</html>
